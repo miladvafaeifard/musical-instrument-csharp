@@ -44,7 +44,6 @@
             this.trackVolume.Name = "trackVolume";
             this.trackVolume.Size = new System.Drawing.Size(776, 45);
             this.trackVolume.TabIndex = 0;
-            this.trackVolume.Scroll += new System.EventHandler(this.trackVolume_Scroll);
             this.trackVolume.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TheMouseDown);
             this.trackVolume.MouseUp += new System.Windows.Forms.MouseEventHandler(this.TheMouseUp);
             // 
@@ -83,7 +82,6 @@
             this.Controls.Add(this.trackVolume);
             this.Name = "Form1";
             this.Text = "Musical Instrument";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackVolume)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackFrequency)).EndInit();
             this.ResumeLayout(false);

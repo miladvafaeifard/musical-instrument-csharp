@@ -36,16 +36,6 @@ namespace MusicalInstrument
 
         }
 
-        private void trackVolume_Scroll(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void TheMouseDown(object sender, MouseEventArgs e)
         {
             player.Play();
